@@ -74,6 +74,16 @@ document.querySelectorAll('.tab-link').forEach(button => {
   });
 });
 
+// Seleccionar la primera pestaña al cargar la página
+window.addEventListener('DOMContentLoaded', () => {
+  const tabsContainer = document.querySelector('#tabs-6');
+  if (!tabsContainer) return;
+
+  const firstButton = tabsContainer.querySelector('.tab-link');
+  if (firstButton) {
+    firstButton.click();
+  }
+});
 
 
 

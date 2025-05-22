@@ -550,6 +550,7 @@ p {
   background-color: #6c757d;
   color: white;
   padding: 12px 25px;
+  height: auto;
   font-weight: 600;
   font-size: 1rem;
   border-radius: 6px;
@@ -581,6 +582,14 @@ p {
     width: 50px;
     margin-bottom: 10px;
   }
+
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #222;
+    }
 }
 
 
